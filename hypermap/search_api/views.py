@@ -395,7 +395,7 @@ def elasticsearch(serializer, catalog):
                 'minX': hm_facet_raw["min_x"],
                 'maxX': hm_facet_raw["max_x"],
                 'minY': hm_facet_raw["min_y"],
-                'maxY': hm_facet_raw["max_x"],
+                'maxY': hm_facet_raw["max_y"],
                 'counts_ints2D': hm_facet_raw["counts"],
                 'projection': 'EPSG:4326'
             }
